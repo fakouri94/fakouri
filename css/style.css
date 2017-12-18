@@ -1,16 +1,13 @@
-.container {
+nav {
     float: right;
+    margin: 80px 0 0 0;
 }
 
-.header-content {
-    float: right;
-}
-
-ul li.binam {
+ul li {
     float: right;
     list-style: none;
     padding: 15px;
-    background-color: #e5bbff;
+
 }
 
 nav ul ul {
@@ -21,7 +18,7 @@ nav ul li:hover > ul {
     display: block;
 }
 
-nav ul {
+/**nav ul {
     background: #f1f4f7;
     box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
     padding: 0 20px;
@@ -88,4 +85,14 @@ nav ul ul ul {
     position: absolute;
     right: 100%;
     top: 0;
+}**/
+form {
+    float: right;
+    margin: 80px -493px 0 0;
+    direction: rtl;
+}
+
+img.logo {
+    float: left;
+    margin: 80px 0 45px 90px;
 }
